@@ -51,7 +51,7 @@ public class StockPageManagement extends BaseContainer {
 		ShippedFrom.click();
 		Thread.sleep(1000);
 		ShopeeMall.click();
-		Driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
+		Thread.sleep(2000);
 
 	}
 
